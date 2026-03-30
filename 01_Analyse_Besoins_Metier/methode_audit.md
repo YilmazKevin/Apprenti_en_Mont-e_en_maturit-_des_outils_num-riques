@@ -2,12 +2,12 @@
 
 Ce document détaille la méthodologie appliquée lors de la migration du logiciel EasyMat vers une solution agile sur Power Platform, afin de répondre aux nouveaux défis métiers de Solumat GAT.
 
-## 1. Analyse de l'existant (Le constat)
+## 1. Analyse de l'existant 
 * **Logiciel :** EasyMat (outil de gestion de parc matériel).
 * **Problématiques identifiées :** Interface vieillissante (UX), manque de flexibilité pour les rapports terrain, et difficultés d'accès en mobilité pour les collaborateurs.
 * **Ma Mission :** Recueillir les besoins métiers pour concevoir une application Power Apps capable de remplacer ou compléter les fonctions critiques.
 
-## 2. Phase d'immersion et Audit (Ma démarche)
+## 2. Phase d'immersion et Audit 
 Pour ce projet, j'ai mis en place un cycle d'audit rigoureux :
 * **Tests unitaires des fonctions :** J'ai testé chaque module d'EasyMat pour comprendre la logique de calcul et les flux de données.
 * **Interviews Terrain :** Discussions directes avec les chefs d'atelier et gestionnaires de parc pour identifier les points de blocage (ex: lenteur de saisie, manque de photos).
