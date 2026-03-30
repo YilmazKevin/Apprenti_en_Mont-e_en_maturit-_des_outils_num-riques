@@ -1,24 +1,25 @@
-# Processus Décisionnel : Arbitrage entre Maintenance et Refonte
+# Processus Décisionnel : Maintenance vs Refonte
 
-Face à un outil R&T (Recherche & Technologie) existant, ma démarche de prise de décision s'appuie sur une matrice de choix multicritères.
+L'évolution des outils R&T vers la plateforme Safran repose sur une évaluation multicritère systématique de chaque brique logicielle.
 
-##  Les 3 Piliers de l'Arbitrage
-Pour chaque brique logicielle de la future plateforme Safran, je me pose trois questions :
+## Critères d'Arbitrage
+Trois indicateurs clés guident le choix technique :
 
-1. **La Robustesse (Qualité) :** Le code actuel est-il assez stable pour être industrialisé ?
-2. **La Maintenabilité (Pérennité) :** Est-ce que la DSI pourra le maintenir dans 5 ans ?
-3. **Le ROI Métier (Efficacité) :** Quel est le gain de temps pour l'ingénieur composite ?
+* **Robustesse (Qualité) :** Aptitude du code ou de la structure actuelle à supporter une industrialisation.
+* **Maintenabilité (Pérennité) :** Capacité de la DSI à assurer le support à un horizon de 5 ans.
+* **ROI Métier (Efficacité) :** Gain de productivité concret pour l'ingénieur composite.
 
-##  Ma Stratégie de Choix (Exemple EasyMat/Vinci)
+## Matrice de Décision
 
-| Scénario | Décision Technique | Justification |
+| État Initial | Décision Technique | Justification |
 | :--- | :--- | :--- |
-| **Outil instable mais fonctionnel** | **Refonte agile (Power Platform)** | Pour garantir la sécurité des données et une interface moderne (UX). |
-| **Code performant mais complexe** | **Encapsulation & Documentation** | On garde le moteur de calcul (ex: Python/C++), mais on crée une interface simplifiée. |
-| **Processus manuel chronophage** | **Automatisation (Power Automate)** | On élimine l'erreur humaine sans modifier l'outil de base. |
+| **Outil instable / obsolète** | **Refonte (Power Platform)** | Sécurisation des données et modernisation de l'interface utilisateur. |
+| **Logique métier performante** | **Optimisation & Documentation** | Conservation de l'intelligence métier existante avec simplification de l'accès. |
+| **Processus manuel** | **Automatisation** | Suppression des tâches répétitives via les outils de flux (Power Automate). |
 
-##  Ma vision pour Safran Composites
-Mon rôle en tant qu'apprenti ingénieur n'est pas de tout reconstruire, mais de définir l'**écosystème optimal**. Cela signifie parfois :
-* Préférer la **réutilisation** de fonctions existantes performantes (Modularité).
-* Proposer des **transferts technologiques** vers des solutions standardisées par le Groupe.
-* Arbitrer en faveur de la solution qui offre la meilleure **interopérabilité** avec les autres outils de la plateforme.
+## Objectifs du Projet (Périmètre Apprentissage)
+La démarche privilégie la cohérence de l'écosystème à la reconstruction systématique :
+
+1. **Modularité :** Réutilisation des briques fonctionnelles existantes et validées.
+2. **Standardisation :** Alignement sur les solutions logicielles préconisées par le Groupe.
+3. **Interopérabilité :** Garantie de la communication fluide entre les modules de la plateforme.
