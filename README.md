@@ -24,13 +24,11 @@ L'offre de Safran Composites souligne un besoin critique : **transformer l'innov
 
 
 
-##  Ma Corrélation avec vos besoins (Le "Match")
+##  Ma Corrélation avec vos besoins 
 
 
 
 | Vos attentes (Safran) | Mon expérience (Vinci / Solumat) |
-
-| :--- | :--- |
 
 | **Rendre robustes les outils numériques** | J'ai transformé des fichiers Excel/VBA fragiles en **Power Apps** sécurisées avec contrôle de saisie. |
 
