@@ -1,5 +1,3 @@
-![Logo](Safran-Logo.jpg)
-
 
 
 # Candidature Apprenti Ingénieur - Safran Composites
