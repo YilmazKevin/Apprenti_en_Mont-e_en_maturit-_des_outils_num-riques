@@ -1,0 +1,21 @@
+# Classes compilees
+build/
+
+# Archives JAR generees
+*.jar
+
+# Documentation generee
+javadoc/
+
+# Fichiers temporaires Makefile
+MANIFEST.MF
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Fichiers IDE
+.idea/
+*.iml
+.vscode/
+*.class
