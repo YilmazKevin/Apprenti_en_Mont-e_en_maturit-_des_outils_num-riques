@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="Safran-Logo.png" width="300">
-</p>
+![Logo](Safran-Logo.jpg)
 
 
 
