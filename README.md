@@ -1,3 +1,7 @@
+# ![Safran Logo](https://www.safran-group.com/modules/custom/safran_general/assets/images/logo_safran.svg)
+
+
+
 # Candidature Apprenti Ingénieur - Safran Composites
 **Candidat : Kevin Yilmaz** | *Objectif : Montée en maturité et industrialisation des outils numériques R&T*
 
